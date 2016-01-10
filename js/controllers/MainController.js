@@ -8,20 +8,20 @@ app.controller('MainController', ['$scope', function($scope) {
       price: 4.95
     },
     {
-      name: 'Mozzarella Sticks',
-      description: 'Served with marinara sauce.',
-      price: 3.95
+      name: 'Chile Lime Chicken Wings',
+      description: 'Tangy spicy wings seasoned with zesty citrus and hot chle peppers.',
+      price: 6.95
     },
     {
-      name: 'Bruschetta',
-      description: 'Grilled bread garlic, tomatoes, olive oil.',
+      name: 'Shrimp-Stuffed Mushrooms',
+      description: 'Chinese dim sum in yummy mushrooms',
       price: 4.95
     }
   ];
   $scope.mains = [
     {
-      name: 'Veal',
-      description: 'Veal, tomatoes, basil, balsmaic glaze.',
+      name: 'Spinach Frittata with Guacamole & Salsa',
+      description: 'spinach and shallot frittata topped with savory guacamole and salsa.',
       price: 14.95
     },
     {
@@ -39,13 +39,13 @@ app.controller('MainController', ['$scope', function($scope) {
   $scope.extras = [
     {
       name: 'Pistachio Gelato',
-      description: 'Yummy creamy sweet nutty goodness',
-      price: 4.95
+      description: 'Yummy creamy sweet nutty goodness in a chocolate cup',
+      price: 6.95
     },
     {
       name: 'Tiramasu',
       description: 'lady fingers soaked in espresso and covered is fluffly sweet cream sauce.',
-      price: 13.95
+      price: 7.95
     }
   
   ];
