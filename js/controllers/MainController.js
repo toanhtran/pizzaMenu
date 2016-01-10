@@ -39,7 +39,7 @@ app.controller('MainController', ['$scope', function($scope) {
   $scope.extras = [
     {
       name: 'Pistachio Gelato',
-      description: 'Yummy goodness',
+      description: 'Yummy creamy sweet nutty goodness',
       price: 4.95
     },
     {

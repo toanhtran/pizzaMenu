@@ -14,13 +14,12 @@
     <div class="main" ng-controller="MainController">
       <div class="container">
         <h1>Specials for {{ today | date }}</h1>
-        
         <h2>Appetizers</h2>
         <div class="appetizers row">
           <div ng-repeat= "appetizer in appetizers" class="item col-md-9">
             <h3 class="name">{{ appetizer.name }} </h3>
             <p class="description"> {{ appetizer.description }} </p>
-          </div>
+        
           <div class="price col-md-3">
             <p class="price">{{ appetizer.price | currency:'$'}} </p>
           </div>
@@ -31,23 +30,24 @@
           <div ng-repeat="main in mains" class="item col-md-9">
             <h3 class="name">{{ main.name }} </h3>
             <p class="description"> {{ main.description }} </p>
-          </div>
+          
           <div class="price col-md-3">
             <p class="price">{{ main.price | currency:'$'}} </p>
           </div>
         </div>
-        <h3> Extras</h3>
+       </div>
+      </div>
+        
+        <h2> Extras</h2>
         <div class="extras row">
           <div ng-repeat="extra in extras" class="item col-md-9">
             <h3 class="name">{{ extra.name }} </h3>
             <p class="description"> {{ extra.description }} </p>
-          </div>
+         
           <div class="price col-md-3">
             <p class="price">{{ extra.price | currency:'$' }} </p>
           </div>
         </div>
- 
-
       </div>
     </div>
 
