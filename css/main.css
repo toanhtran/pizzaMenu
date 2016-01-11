@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
     background: url(bg.jpg);
     background-size: 110px 69px;
     font-family: 'Playfair Display', serif;
@@ -12,33 +13,32 @@ body p {
 .header h1 {
     background: #ce2c38;
     border-radius: 100%;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.25);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
     height: 140px;
     margin: 60px auto 0;
     position: relative;
     text-align: center;
     width: 140px;
     z-index: 10;
-    
 }
 
 .header h1 span {
-    color:#fff;
+    color: #fff;
     display: block;
     font-size: 40px;
     padding: 34px 0 0 0;
 }
 
 .header h1 span+span {
-    color:#000;
+    color: #000;
     display: block;
     font-size: 28px;
     padding: 0;
 }
 
 .main .container {
-    background:#fff;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
     margin: -70px auto 80px;
     padding: 80px;
     z-index: 0;
@@ -73,6 +73,10 @@ h3 {
     font-family: 'Oswald', sans-serif;
     font-size: 20px;
     font-style: normal;
-    margin: 26px 0 5px;
+    margin: 0px 0 5px;
     text-align: right;
+}
+
+.price {
+    margin-left: 70%;
 }
