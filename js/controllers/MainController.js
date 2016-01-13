@@ -14,14 +14,14 @@ app.controller('MainController', ['$scope', function ($scope) {
     },
         {
             name: 'Shrimp-Stuffed Mushrooms',
-            description: 'savory shrimp filling in mushrooms',
+            description: 'Savory shrimp filling in mushrooms',
             price: 4.95
     }
   ];
     $scope.mains = [
         {
             name: 'Spinach Frittata with Guacamole & Salsa',
-            description: 'spinach and shallot frittata topped with savory guacamole and salsa.',
+            description: 'Spinach and shallot frittata topped with savory guacamole and salsa.',
             price: 14.95
     },
         {
@@ -44,7 +44,7 @@ app.controller('MainController', ['$scope', function ($scope) {
     },
         {
             name: 'Tiramasu',
-            description: 'lady fingers soaked in espresso and covered is fluffly sweet cream sauce.',
+            description: 'Lady fingers soaked in espresso and covered is fluffly sweet cream sauce.',
             price: 7.95
     }
 
